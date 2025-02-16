@@ -1,0 +1,25 @@
+.toDoBox {
+}
+
+.delButton {
+}
+
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.list {
+    padding: 0px;
+    max-width: 25%;
+}
+
+.listItem p {
+    margin: 0px;
+    margin-right: 4px;
+}
+
+.todo {
+    display: flex;
+}
