@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(40, 40, 40);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#center-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+#bar-suggestions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+}
+
+#suggestions {
+    display: flex;
+    justify-content: center;
+}
+
+#search-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#liste {
+    list-style: none;
+    padding: 4px;
+    background-color: rgb(60, 60, 60);
+    border-radius: 5px;
+    margin-top: 4px;
+}
+
+.hideListe {
+    display: none;
+}
+
+#liste > li:hover {
+    padding-left: 2px;
+}
+
+.low {
+    background-color: green;
+}
+
+.high {
+    background-color: red;
+}

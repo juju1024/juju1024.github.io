@@ -1,0 +1,18 @@
+#food-data {
+    list-style: none;
+    padding: 0;
+}
+
+#food-data > li {
+    margin: 12px;
+    margin-left: 0;
+}
+
+#back-button {
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+
+#food-profile {
+    margin: auto;
+}

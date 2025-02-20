@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<head>
+    <title>FODMAP List</title>
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="profile.css">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script src="profile.js">
+    </script>
+    <script src="search.js" defer>
+    </script>
+</head>
+
+<body>
+    <div id="center-container">
+        <h1>FODMAP List</h1>
+        <div id="search-wrapper">
+            <div id="bar-suggestions">
+                <input id="searchbar" type="search" placeholder="Search food...">
+                <ul id="liste">
+                </ul>
+            </div>
+        </div>
+    </div>
+    <button id="back-button" style="display: none" onclick="switchToSearchBar()">Go Back</button>
+    <div id="food-profile" style="display: none;">
+        <h1 id="food-profile-heading">
+            Food Profile
+        </h1>
+        <ul id="food-data">
+        </ul>
+    </div>
+</body>
