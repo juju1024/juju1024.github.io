@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia</title>
+    <link rel="stylesheet" href="trivia.css">
+    <script src="trivia.js" defer></script>
+</head>
+
+<body>
+    <h1>Trivia</h1>
+    <div class="streak-container">
+        <p>Your streak: <span id="streakCount">0</span></p>
+    </div>
+    <div class="quiz-container">
+        <div class="question-container">
+            <p id="question"></p>
+        </div>
+        <div class="options-container">
+            <button id="firstOption" class="option"></button>
+            <button id="secondOption" class="option"></button>
+            <button id="thirdOption" class="option"></button>
+            <button id="fourthOption" class="option"></button>
+        </div>
+    </div>
+    <div class="next-container">
+        <button id="nextButton" disabled="true">Next Question &raquo</button>
+    </div>
+</body>
+
+</html>
